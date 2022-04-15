@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { HeaderComponent } from './header/header.component';
+import { CardsContainerComponent } from './cards-container/cards-container.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    HeaderComponent,
+    CardsContainerComponent
   ],
   imports: [
     BrowserModule,
