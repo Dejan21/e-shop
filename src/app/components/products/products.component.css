@@ -1,0 +1,15 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-clip: border-box;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+    background: #fff;
+}
+ .item img{
+    width: 65px;
+    margin-top: 15px;
+}
