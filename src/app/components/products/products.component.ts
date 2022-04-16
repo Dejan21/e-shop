@@ -10,6 +10,7 @@ import { CartService } from 'src/app/service/cart.service';
 export class ProductsComponent implements OnInit {
 
   public productList: any;
+  isLoading: boolean | undefined;
 
   constructor(private api: ApiService, private cartService: CartService) { }
 
@@ -25,5 +26,6 @@ export class ProductsComponent implements OnInit {
   }
   addtoCart(item:any){
    this.cartService.addtoCart(item);
+   this.isLoading = true;
   }
 }

@@ -17,7 +17,9 @@
                 <h5>{{item.title}}</h5>
                 <p>{{item.description}}</p>
                 <p><strong>Price</strong>${{item.price}}</p>
-                <button class=" btn btn-primary" (click)="addtoCart(item)" >Add to cart</button>
+                <button class=" btn btn-primary" (click)="addtoCart(item)" >Add to cart
+                    <span *ngIf="isLoading" class="spinner-border spinner-border-sm mr-1"></span>
+                </button>
              </div>
         </ng-container>
 
