@@ -27,5 +27,8 @@ export class ProductsComponent implements OnInit {
   addtoCart(item:any){
    this.cartService.addtoCart(item);
    this.isLoading = true;
+   setTimeout(() => {
+     this.isLoading = false;
+   }, 3000) 
   }
 }
