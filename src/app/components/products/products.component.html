@@ -12,11 +12,11 @@
 <div class="container">
     <div class="row">
         <ng-container *ngFor="let item of productList">
-            <div class="card col-md-3">
+            <div class="card ">
                 <img src="{{item.image}}" alt="">
                 <h5>{{item.title}}</h5>
                 <p>{{item.description}}</p>
-                <p><strong>Price</strong>${{item.price}}</p>
+                <p ><strong>Price ${{item.price}}</strong></p>
                 <button class=" btn btn-primary" (click)="addtoCart(item)" >Add to cart
                     <span *ngIf="isLoading" class="spinner-border spinner-border-sm mr-1"></span>
                 </button>

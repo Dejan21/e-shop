@@ -12,6 +12,9 @@
 .card{
   padding: 20px;
   margin: 50px;
+  flex-direction: row !important;
+  width: 550px;
+  height: 300px;
 }
  .item img{
     width: 65px;
@@ -22,16 +25,22 @@
     color:blue;
 }
 .card h5{
-    white-space: nowrap;
+    position: absolute;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100ch;
+    max-width: 25ch;
+    left: 275px;
 }
 .card p{
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100ch;
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 65px;
+    left: 270px;
 }
 .card img{
     width: 200px;
@@ -41,4 +50,14 @@
 .card img:hover{
     transition: 0.3s ease-in-out;
     transform:scale(1.1);
+}
+.btn-primary{
+    margin-top: 220px;
+    width: 360px !important;
+    height: 50px;
+}
+strong{
+    position: absolute;
+    top: 135px;
+    right:250px;
 }
