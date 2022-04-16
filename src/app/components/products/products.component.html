@@ -17,7 +17,7 @@
                 <h5>{{item.title}}</h5>
                 <p>{{item.description}}</p>
                 <p><strong>Price</strong>${{item.price}}</p>
-                <button class=" btn btn-primary">Add to cart</button>
+                <button class=" btn btn-primary" (click)="addtoCart(item)" >Add to cart</button>
              </div>
         </ng-container>
 
