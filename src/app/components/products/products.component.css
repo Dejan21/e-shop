@@ -13,3 +13,7 @@
     width: 65px;
     margin-top: 15px;
 }
+
+.item a:hover{
+    color:blue;
+}
