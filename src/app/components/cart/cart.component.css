@@ -10,3 +10,13 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border:none;
+    outline:none;
+    height: 162px;
+    margin: 20px 0px;
+    width: 250px;
+    background: white;
+}
