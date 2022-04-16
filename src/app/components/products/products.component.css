@@ -9,6 +9,10 @@
     border-radius: .25rem;
     background: #fff;
 }
+.card{
+  padding: 20px;
+  margin: 50px;
+}
  .item img{
     width: 65px;
     margin-top: 15px;
@@ -28,4 +32,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100ch;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform:scale(1.1);
 }
