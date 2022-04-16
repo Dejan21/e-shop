@@ -29,6 +29,6 @@ export class ProductsComponent implements OnInit {
    this.isLoading = true;
    setTimeout(() => {
      this.isLoading = false;
-   }, 3000) 
+   }, 1000) 
   }
 }

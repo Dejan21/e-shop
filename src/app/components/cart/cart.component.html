@@ -15,14 +15,14 @@
                  </tr>
              </thead>
              <tbody>
-                 <tr>
-                     <td>1</td>
-                     <td>Iphone</td>
-                     <td>Some images</td>
-                     <td>this is a branded phone</td>
-                     <td>50,000</td>
-                     <td>1</td>
-                     <td>50,000</td>
+                 <tr *ngFor="let item of products">
+                     <td>{{item+ 1}}</td>
+                     <td>{{item.title}}</td>
+                     <td><img style="width:250px" src="{{item.image}}" alt=""></td>
+                     <td>{{item.description}}</td>
+                     <td>{{item.price}}</td>
+                     <td>{{item.quantity}}</td>
+                     <td>{{item.total}}</td>
                      <td>
                          <button class="btn btn-danger">Delete</button>
                      </td>
